@@ -50,10 +50,16 @@ body {
 .about{
     background: rgb(228, 189, 138);
     display: flex;
+    align-items: center;
     font-size: 50px;
     padding: 3rem;
+
 }
 .smash {
     font-size: 90px;
     padding: 2rem;
 }
+
+/* @media screen and (max-width: 800px) {
+
+} */
