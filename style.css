@@ -9,28 +9,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 107px;
+    font-size: 91px;
     height: 100vh;
     padding: 3rem;
 }
 .MC-DO {
-    height: 700px;
-    width: 700px;
+    height: 663px;
+    width: 663px;
+    padding: 7rem;
 }
 .relative {
     position: relative;
 }
 .supplémentOne {
     position: absolute;
-    top: -438px;
+    top: -477px;
     right: 0;
-    width: 1807px;
+    width: 1828px;
 }
 .supplémentTwo {
     position: absolute;
-    top: 296px;
+    top: 249px;
     right: 0;
-    width: 213px;
+    width: 214px;
 }
 .map {
     background: rgb(206, 142, 24);
@@ -60,6 +61,5 @@ body {
     padding: 2rem;
 }
 
-/* @media screen and (max-width: 800px) {
-
-} */
+/* ********************Responsive********************* */
+    
