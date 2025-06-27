@@ -14,22 +14,22 @@ body {
     padding: 3rem;
 }
 .MC-DO {
-    height: 663px;
-    width: 663px;
-    padding: 7rem;
+    height: 684px;
+    width: 684px;
+    padding: 3rem;
 }
 .relative {
     position: relative;
 }
 .supplémentOne {
     position: absolute;
-    top: -477px;
+    top: -470px;
     right: 0;
     width: 1828px;
 }
 .supplémentTwo {
     position: absolute;
-    top: 249px;
+    top: 298px;
     right: 0;
     width: 214px;
 }
@@ -62,4 +62,47 @@ body {
 }
 
 /* ********************Responsive********************* */
-    
+
+    @media screen and (max-width: 1282px) {
+        .burger {
+            display:block;
+            text-align: center;
+        }
+        .supplémentOne {
+            position: absolute;
+            top: -790px;
+            right: 0;
+            width: 1942px;
+}
+        .supplémentTwo {
+            position: absolute;
+            top: -265px;
+            right: 0;
+            width: 295px;
+        }
+    }
+    @media screen and (max-width: 1215px){
+        .burger {
+            display: block;
+            font-size: 90px;
+            text-align: center;
+        
+        }
+        .MC-DO {
+            height: 498px;
+            width: 642px;
+            padding: 3rem;
+        }
+        .supplémentOne {
+            position: absolute;
+            top: -628px;
+            right: 0;
+            width: 1950px;
+        }
+         .supplémentTwo {
+            position: absolute;
+            top: -195px;
+            right: 0;
+            width: 285px;
+        }
+    }
