@@ -106,3 +106,74 @@ body {
             width: 285px;
         }
     }
+    @media screen and (max-width:1045px){
+        .supplémentOne {
+            position: absolute;
+            top: -614px;
+            right: 0;
+            width: 1695px;
+        }
+        .supplémentTwo {
+            position: absolute;
+            top: -230px;
+            right: 0;
+            width: 216px;
+        }
+        .map {
+            font-size: 63px;
+        }
+    }
+    @media screen and (max-width: 1028px){
+        .burger {
+            display: block;
+            font-size: 77px;
+            text-align: center;
+        }
+        .MC-DO {
+            height: 507px;
+            width: 614px;
+            padding: 3rem;
+        }
+        .about {
+            display: block;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 991px){
+         .supplémentOne {
+            position: absolute;
+            top: -614px;
+            right: 0;
+            width: 1570px;
+        }
+        .map {
+            font-size: 49px;
+        }        
+    }
+    @media screen and (max-width: 963px){
+         .supplémentTwo {
+            position: absolute;
+            top: -172px;
+            right: 0;
+            width: 211px;
+        }
+    }
+     @media screen and (max-width: 945px){
+        .burger {
+            display: block;
+            font-size: 63px;
+            height: 80vh;
+            text-align: center;
+        }
+          .supplémentOne {
+            position: absolute;
+            top: -549px;
+            right: 0;
+            width: 1491px;
+  }
+        .MC-DO {
+            height: 442px;
+            width: 528px;
+            padding: 3rem;
+        }
+    }
