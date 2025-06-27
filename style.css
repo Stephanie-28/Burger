@@ -99,7 +99,7 @@ body {
             right: 0;
             width: 1950px;
         }
-         .supplémentTwo {
+        .supplémentTwo {
             position: absolute;
             top: -195px;
             right: 0;
@@ -140,7 +140,7 @@ body {
         }
     }
     @media screen and (max-width: 991px){
-         .supplémentOne {
+        .supplémentOne {
             position: absolute;
             top: -614px;
             right: 0;
@@ -151,7 +151,7 @@ body {
         }        
     }
     @media screen and (max-width: 963px){
-         .supplémentTwo {
+        .supplémentTwo {
             position: absolute;
             top: -172px;
             right: 0;
@@ -165,15 +165,49 @@ body {
             height: 80vh;
             text-align: center;
         }
-          .supplémentOne {
+        .supplémentOne {
             position: absolute;
             top: -549px;
             right: 0;
             width: 1491px;
-  }
+        }
         .MC-DO {
             height: 442px;
             width: 528px;
             padding: 3rem;
+        }
+    }
+    @media screen and (max-width: 905px){
+        .supplémentOne {
+            display: none;
+        }
+        .supplémentTwo {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 752px){
+        .burger {
+            display: block;
+            font-size: 55px;
+            height: 80vh;
+            text-align: center;
+        }
+         .map {
+            font-size: 42px;
+        }
+    }
+    @media screen and (max-width: 649px){
+         .MC-DO {
+            height: 398px;
+            width: 449px;
+            padding: 3rem;
+        }
+          .map {
+            font-size: 35px;
+        }
+    }
+    @media screen and (max-width: 601px){
+        .map {
+            height: 80vh;
         }
     }
